@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EventCalendar.Entity.Event">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAiAMAEAAAAAAAAAAAJQAQAAAAEAAAAEQA=</HashCode>
+      <FileName>Event.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Invitor" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Notifications" />
+      <Property Name="Participators" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="EventCalendar.Entity.Notification">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAAAAAAACAEAAAAEAAAQgAAAAAAAABAAAAACAA=</HashCode>
+      <FileName>Notification.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NotificationType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EventCalendar.Entity.Person">
+    <Position X="1.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAEAAAAAgAAAEgAAAQAQAAgAQAABAAAAAAAAAAAg=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="EventCalendar.Entity.NotificationType">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>NotificationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
